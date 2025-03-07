@@ -1,0 +1,33 @@
+scenario 1:
+print "enter a positive number"
+read number and repeat until number = 0
+if number is 0 print the largest number inputed
+
+scenario 2:
+print "first_name"
+read first_name
+print first_name,"hello,world"
+
+scenario 3:
+set sum to 0
+set count to 0
+print "enter numbers:"
+repeat
+read number if number = 0 then
+set sum to sum + number 
+set count to count + 1
+until numer 0
+if count 0 then
+set avergage to sum/count
+print "the arithmetic average is:",average
+
+scenario 4:
+read grocery list
+print out products in alphabetical order
+
+scenario 5:
+read x,y
+set s=x+y
+set a=s/2
+set p=xxy
+print s,a,p
